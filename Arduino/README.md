@@ -1,4 +1,5 @@
-You need: 7 MPU6050, 1 PCA9548A and Arduino Uno (nano)
+Components: 7 MPU6050, 1 PCA9548A, HC-06, and Arduino Uno (nano)
+HC-06 is optional
 Maximum IMU count is 8, but you can use more if add 2 more PCA9548A
 
 IMU positions:      
@@ -6,6 +7,8 @@ IMU positions:
 
 
 # Dependencies
+Platformio IO (Preferably)
+
 Libraries: I2Cdev, MPU6050_6Axis_MotionApps20
 
 # Output format
